@@ -1,0 +1,58 @@
+.navbar{
+   display: flex;
+   justify-content: space-between;
+}
+
+.navbar .nav-item .nav-link {
+   position: relative;
+   padding-bottom: 10px;
+   color:#fff !important;
+}
+
+
+
+
+
+.navbar-collapse{
+   width:95%;
+   top:50px; 
+   position: absolute;
+}
+
+
+
+ .navbar .nav-item .nav-link:hover{
+   color:#fff
+ }
+
+
+/* home btn link */
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+   color:#fff
+}
+/*  */
+
+
+ 
+ .navbar .nav-item a::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   height: 2px;
+   width: 0%;
+   background-color: rgb(240, 33, 33);
+   transition: width 0.3s;
+}
+
+
+
+
+
+
+.navbar .nav-item .nav-link:hover:after {
+    width: 100%;
+ } 
+
+
