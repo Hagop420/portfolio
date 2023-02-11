@@ -1,0 +1,97 @@
+body{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   /* background:rgb(3,0,0); */
+   background:blue;
+   transition: background-color 0.5s ease;
+  }
+
+.content{
+   display: flex;
+   align-items: center;
+   height:80vh;
+}
+
+
+
+span.name::after {
+   content: "";
+   /* position: absolute; */
+   width:50px;
+   /* display: block; */
+   border-bottom: 10px solid orange;
+ }
+
+ span.name{position: relative;}
+
+ .fadeInText h2{
+position: absolute;
+top:10px;
+bottom: 0;
+ }
+
+
+ /* text front end dev fade affect */
+
+ .fadeInText {
+   opacity:0;
+   transform: translateY(30px);
+   transition: 1s all ease-in-out;
+ }
+
+ .fadeAppear{
+   opacity:1;
+   transform: translateY(4px);
+ }
+
+
+ /* chevron down1 */
+
+ #wrapper{
+   margin: auto;
+   width:0;
+   color:#fff;
+   
+}
+
+#wrapper i{
+   font-size: 30px;
+   text-align: center;
+ }
+
+ #wrapper i:hover{
+  color: orange;
+   animation: about_chevron 2.5s forwards infinite ease;
+ }
+
+
+ /* about section */
+
+ #aboutSection{
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+ }
+
+
+ #aboutSection h2{
+ 
+   border-bottom: 5px solid orange;
+   margin-bottom: 20px;
+ }
+
+
+
+ .spacer p{
+   color:#fff
+ }
+
+ #aboutSection img{height: 300px; object-fit: contain;}
+ 
+
+ #aboutSection .spacer{
+   display: flex;
+  justify-content: space-around;
+ }
