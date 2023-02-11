@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // $(function () {
 //    $('[data-toggle="tooltip"]').tooltip({
 //      trigger: 'manual',
@@ -30,3 +31,8 @@ function myFunction(e) {
 document.getElementById("tooltip").style.top = y + "px";
 }
  
+=======
+$(function () {
+   $('[data-toggle="tooltip"]').tooltip()
+})
+>>>>>>> e3b30994d5dafae2ffb3ad1affa425c40b0c634e

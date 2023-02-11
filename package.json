@@ -1,10 +1,27 @@
 {
+<<<<<<< HEAD
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
   "scripts": {
     "start": "lite-server"
   },
+=======
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "Main Portfolio Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hagop Jack Almadjian",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+>>>>>>> e3b30994d5dafae2ffb3ad1affa425c40b0c634e
   "dependencies": {
     "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",

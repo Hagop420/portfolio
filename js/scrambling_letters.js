@@ -110,4 +110,11 @@ app.init = () => {
 $(function(){
    app.init();
    AOS.init();
+<<<<<<< HEAD
 });
+=======
+});
+
+
+
+>>>>>>> e3b30994d5dafae2ffb3ad1affa425c40b0c634e
