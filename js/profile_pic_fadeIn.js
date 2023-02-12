@@ -1,5 +1,5 @@
-const fadeAffectPara = () => {
-   const fadeInPara = document.querySelector('.fadeInPara');
+const fadeAffectProfilePic = () => {
+   const fadeInPara = document.querySelector('.fadeAbProfile');
    const fadePosition = fadeInPara.getBoundingClientRect().top;
 
    const screenPosition = innerHeight / 1
@@ -16,4 +16,4 @@ const fadeAffectPara = () => {
 }
 
 
-window.addEventListener('scroll', fadeAffectPara)
+window.addEventListener('scroll', fadeAffectProfilePic)

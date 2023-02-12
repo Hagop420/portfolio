@@ -32,27 +32,7 @@ bottom: 0;
  }
 
 
- /* text front end dev fade affect */
-
- .fadeInText {
-   opacity:0;
-   transform: translateY(30px);
-   transition: 1s all ease-in-out;
- }
-
- /* Paragraph animation */
-
- .fadeInPara {
-   opacity:0;
-   transform: translateY(10px);
-   transition: 1s all ease-in-out;
- }
-
- .fadeAppear{
-   opacity:1;
-   transform: translateY(4px);
- }
-
+ 
 
  /* chevron down1 */
 
@@ -63,6 +43,7 @@ bottom: 0;
    position:relative
    
 }
+.spacer{margin-bottom: 300px;}
 
 #wrapper i{
    font-size: 30px;

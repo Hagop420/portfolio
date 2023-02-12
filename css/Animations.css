@@ -1,0 +1,36 @@
+/* text front end dev fade affect */
+
+.fadeInText {
+   opacity:0;
+   transform: translateY(30px);
+   transition: 1s all ease-in-out;
+ }
+
+ /* About me ttl animation */
+ .fadeAbTtl{
+  opacity:0;
+  transform: translateY(10px);
+  transition: .9s .3s all ease-in-out;
+ }
+
+
+ /* About me Portfolio pic animation */
+ .fadeAbProfile{
+  opacity:0;
+  transform: translateY(10px);
+  transition: .9s .4s all ease-in-out;
+  margin-bottom: 20px;
+ }
+
+ /* Paragraph animation */
+
+ .fadeInPara {
+   opacity:0;
+   transform: translateY(14px);
+   transition: .9s .5s all ease-in-out;
+ }
+
+ .fadeAppear{
+   opacity:1;
+   transform: translateY(0px);
+ }
