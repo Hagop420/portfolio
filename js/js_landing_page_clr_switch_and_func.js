@@ -2,6 +2,7 @@ const main_nav_ttl = document.querySelector('.navHA');
 
 
 main_nav_ttl.style.color = '#fff'
+main_nav_ttl.style.fontSize = '1.5rem'
 
 const spanName=document.querySelector('span.name')
 spanName.style.color = '#fff';
@@ -14,23 +15,29 @@ const nav_toggler_icon = document.querySelector('.navbar-toggler-icon');
 
 nav_toggler_icon.style.backgroundImage='url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png)'
 
- 
+const tooltip = document.querySelector('#tooltip');
+tooltip.style.boxShadow='0 8px 10px red'
+tooltip.style.background = 'orangered';
+tooltip.style.color = '343a40';
 
 
 const lightDarkInput = document.querySelector('#light-dark');
 
 lightDarkInput.addEventListener('click', function() {
    if (lightDarkInput.checked) {
-
       // spacer 
-
+      
       // spacer p to dark color
-
+      
       const spacer = document.querySelector('.spacer p');
       spacer.style.color='#343a40'
-
+      
       // end color dark for spacer
-         // Execute code when the sun icon is being displayed
+      // Execute code when the sun icon is being displayed
+      const tooltip = document.querySelector('#tooltip');
+      tooltip.style.boxShadow='0 8px 10px #343a40'
+tooltip.style.background = '#343a40';
+tooltip.style.color = '#fff';
       document.body.className='light'
       // main_nav_ttl.classList.add('text-dark');
 
@@ -55,6 +62,8 @@ lightDarkInput.addEventListener('click', function() {
       fadeInText_h2.style.color = '#343a40';
 
 
+
+
       // change the nav links to dark color
 
       const links_in_navbar=document.querySelectorAll('.navbar .nav-item .nav-link')
@@ -76,15 +85,30 @@ lightDarkInput.addEventListener('click', function() {
       ballSwitcher.style.background = '#343a40'
       
 
-      // about me chevron icon change to dark
+      // about me chevron icon change to light
 
       const wrapper = document.querySelector('#wrapper');
-wrapper.style.color = '#343a40';
+      wrapper.style.color = '#343a40';
+      
+      
+      
+      
+      const downToggler = document.querySelector('.fa-chevron-down');
 
+      downToggler.addEventListener('mouseover' , ()=>{downToggler.style.color='#000'})
+      downToggler.addEventListener('mouseout' , ()=>{downToggler.style.color='#343a40'})
+   
+      downToggler.style.color='#343a40'
+   // when it's light background
+      
+   
+   
 
       
+      
+      
    } else {
-
+      
        // spacer p to dark color
 
        const spacer = document.querySelector('.spacer p');
@@ -102,7 +126,17 @@ wrapper.style.color = '#343a40';
 const ballSwitcher = document.querySelector('.switch-light .switch')
 
 ballSwitcher.style.background='#fff'
+const downToggler = document.querySelector('.fa-chevron-down');
+      downToggler.style.color = '#fff'
+      
+      downToggler.addEventListener('mouseover', () => {
+         downToggler.style.color = '#fff'
 
+      })
+      downToggler.addEventListener('mouseout', () => {
+         downToggler.style.color = 'rgb(236, 235, 224)'
+
+      })
 
           // Execute code when the moon icon is being displayed
       document.body.className = 'dark'
@@ -139,12 +173,19 @@ ballSwitcher.style.background='#fff'
       links_in_navbar.forEach(link => {
          link.style.setProperty('color', '#fff', 'important');
       })
+      
+         const tooltip = document.querySelector('#tooltip');
+         tooltip.style.boxShadow='0 8px 10px #343a40'
+      tooltip.style.background = '#343a40';
+         tooltip.style.color = '#fff';
+         
+      
+        
+         
    }
-<<<<<<< HEAD
-});
-=======
 
 
+  
 
 
    
@@ -153,7 +194,6 @@ ballSwitcher.style.background='#fff'
 
 
 
- 
 
 
 
@@ -184,4 +224,3 @@ ballSwitcher.style.background='#fff'
 
 
 
->>>>>>> e3b30994d5dafae2ffb3ad1affa425c40b0c634e

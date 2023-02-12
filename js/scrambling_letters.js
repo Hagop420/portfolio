@@ -107,14 +107,9 @@ app.init = () => {
 
 
 // Doc Ready
-$(function(){
-   app.init();
-   AOS.init();
-<<<<<<< HEAD
-});
-=======
+$(function () {
+    app.init();
+    AOS.init();
 });
 
 
-
->>>>>>> e3b30994d5dafae2ffb3ad1affa425c40b0c634e

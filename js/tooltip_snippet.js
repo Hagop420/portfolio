@@ -1,38 +1,12 @@
-<<<<<<< HEAD
-// $(function () {
-//    $('[data-toggle="tooltip"]').tooltip({
-//      trigger: 'manual',
-//      placement: 'auto',
-//      container: 'body',
-//      html: true
-//    }).on('mouseenter', function () {
-//      var self = this;
-//      $(this).tooltip('show');
-//      $('.tooltip').on('mouseleave', function () {
-//        $(self).tooltip('hide');
-//      });
-//    }).on('mouseleave', function () {
-//      var self = this;
-//      setTimeout(function () {
-//        if (!$('.tooltip:hover').length) {
-//          $(self).tooltip('hide');
-//        }
-//      }, 300);
-//    });
-//  });
+const spanText = document.getElementById('tooltip');
 
+window.onmouseover = function(e){
+   const x = e.clientX;
+   const y = e.clientY;
 
-
-
-function myFunction(e) {
-   var x = e.clientX;
-   var y = e.clientY;
-   document.getElementById("tooltip").style.left = x + "px";
-document.getElementById("tooltip").style.top = y + "px";
+   spanText.style.top = (y + 20) + 'px'
+   spanText.style.left = (x + 20) + 'px'
 }
- 
-=======
-$(function () {
-   $('[data-toggle="tooltip"]').tooltip()
-})
->>>>>>> e3b30994d5dafae2ffb3ad1affa425c40b0c634e
+
+
+

@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> e3b30994d5dafae2ffb3ad1affa425c40b0c634e
 const fadeAffect = () => {
    const fadeInText = document.querySelector('.fadeInText');
    const fadePosition = fadeInText.getBoundingClientRect().top;
@@ -44,10 +41,4 @@ const funcSpave = () => {
    })
 }
 
-<<<<<<< HEAD
-funcSpave()
-=======
-funcSpave()
 
-
->>>>>>> e3b30994d5dafae2ffb3ad1affa425c40b0c634e
