@@ -40,6 +40,14 @@ bottom: 0;
    transition: 1s all ease-in-out;
  }
 
+ /* Paragraph animation */
+
+ .fadeInPara {
+   opacity:0;
+   transform: translateY(10px);
+   transition: 1s all ease-in-out;
+ }
+
  .fadeAppear{
    opacity:1;
    transform: translateY(4px);

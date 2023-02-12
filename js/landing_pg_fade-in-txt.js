@@ -17,12 +17,26 @@ const fadeAffect = () => {
 }
 
 
+
+
 addEventListener('load', fadeAffect)
 
 
 const imgSpacer = document.querySelector('.spacer img');
 
 const imgPara = document.querySelector('.spacer p')
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
