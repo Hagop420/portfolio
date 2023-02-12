@@ -103,7 +103,7 @@ tooltip.style.color = '#fff';
       
    
    
-
+  
       
       
       
@@ -175,9 +175,9 @@ const downToggler = document.querySelector('.fa-chevron-down');
       })
       
          const tooltip = document.querySelector('#tooltip');
-         tooltip.style.boxShadow='0 8px 10px #343a40'
-      tooltip.style.background = '#343a40';
-         tooltip.style.color = '#fff';
+         tooltip.style.boxShadow='-4px 3px 1rem orange'
+      tooltip.style.background = 'rgb(213, 159, 0)';
+         tooltip.style.color = '#343a40';
          
       
         

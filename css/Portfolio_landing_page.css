@@ -59,10 +59,11 @@ bottom: 0;
 #wrapper i{
    font-size: 30px;
    text-align: center;
- }
-
- #wrapper i:hover{
-  color: orange;
+  }
+  
+  #wrapper i:hover{
+    color: orange;
+    transition:transform .6s ease-in-out;
    animation: about_chevron 2.5s forwards infinite ease;
  }
 
