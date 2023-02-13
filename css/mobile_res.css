@@ -114,7 +114,7 @@ span.name::after {
  
   }
 
-  .imgAb {
+  .fadeAbProfile {
     border-radius: .5rem;
     transition: none;
     border: 1.3px solid #343a40 !important;

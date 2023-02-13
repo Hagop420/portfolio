@@ -109,9 +109,7 @@ tooltip.style.color = '#fff';
    abTtl.style.color='#343a40'
    abTtl.style.transition='none'
   
-   const aboutMeProfileImg = document.querySelector('.fadeAbProfile');
-   aboutMeProfileImg.style.border='#343a40'
-      aboutMeProfileImg.classList.add('imgAb')
+   
 
    } else {
       
@@ -192,7 +190,6 @@ const downToggler = document.querySelector('.fa-chevron-down');
       // img in about
 
       const aboutMeProfileImg = document.querySelector('.fadeAbProfile');
-aboutMeProfileImg.style.border='1.3px solid orangered'
          
    }
 
@@ -203,6 +200,9 @@ aboutMeProfileImg.style.border='1.3px solid orangered'
    
 
 });
+
+
+
 
 
 
