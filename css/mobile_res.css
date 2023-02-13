@@ -114,6 +114,16 @@ span.name::after {
  
   }
 
+  .imgAb {
+    border-radius: .5rem;
+    transition: none;
+    border: 1.3px solid #343a40 !important;
+    object-fit: cover !important;
+    height: 386.6px !important;
+    padding: .3rem !important;
+  }
+  
+
 
 
 /* about me */

@@ -43,6 +43,9 @@ bottom: 0;
    position:relative
    
 }
+/* download small italisize */
+
+small{font-style: italic;}
 .spacer{margin-bottom: 300px;}
 
 #wrapper i{

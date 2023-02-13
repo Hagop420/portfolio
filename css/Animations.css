@@ -26,8 +26,8 @@
 
  .fadeInPara {
    opacity:0;
-   transform: translateY(14px);
-   transition: .9s .5s all ease-in-out;
+   transform: translateY(12px);
+   transition: .9s .5s all ease;
  }
 
  .fadeAppear{

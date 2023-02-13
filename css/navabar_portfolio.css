@@ -35,7 +35,7 @@
 
 
  
- .navbar .nav-item a::after {
+ /* .navbar .nav-item a::after {
    content: "";
    position: absolute;
    bottom: 0;
@@ -44,7 +44,7 @@
    width: 0%;
    background-color: rgb(240, 33, 33);
    transition: width 0.3s;
-}
+} */
 
 
 

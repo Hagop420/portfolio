@@ -1,5 +1,6 @@
 const main_nav_ttl = document.querySelector('.navHA');
-
+// const home_link = document.querySelector('')
+// home_link.style.background='none'
 
 main_nav_ttl.style.color = '#fff'
 main_nav_ttl.style.fontSize = '1.5rem'
@@ -22,6 +23,8 @@ tooltip.style.color = '343a40';
 
 
 const lightDarkInput = document.querySelector('#light-dark');
+
+
 
 lightDarkInput.addEventListener('click', function() {
    if (lightDarkInput.checked) {
@@ -102,11 +105,14 @@ tooltip.style.color = '#fff';
    // when it's light background
       
    
-   
+   const abTtl=document.querySelector('.fadeAbTtl')
+   abTtl.style.color='#343a40'
+   abTtl.style.transition='none'
   
-      
-      
-      
+   const aboutMeProfileImg = document.querySelector('.fadeAbProfile');
+   aboutMeProfileImg.style.border='#343a40'
+      aboutMeProfileImg.classList.add('imgAb')
+
    } else {
       
        // spacer p to dark color
@@ -180,7 +186,13 @@ const downToggler = document.querySelector('.fa-chevron-down');
          tooltip.style.color = '#343a40';
          
       
-        
+         const abTtl=document.querySelector('.fadeAbTtl')
+      abTtl.style.color = '#fff' 
+      
+      // img in about
+
+      const aboutMeProfileImg = document.querySelector('.fadeAbProfile');
+aboutMeProfileImg.style.border='1.3px solid orangered'
          
    }
 
