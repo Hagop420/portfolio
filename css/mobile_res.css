@@ -145,7 +145,37 @@ span.name::after {
 
 /* about me */
 
+
+/* my skills  */
+#SkillsSection{
+  position: relative;
+   bottom: 250px;
+   
+}
+
+
+#SkillsSection h2{
+  font-size:1.1rem;
+}
+
+
+/* img cols */
+
+.col{
+  margin-bottom: 35px;
+ 
+}
+
   }
+  .row{
+    display: flex !important;
+  }
+
+  .col i{
+    font-size: 4.4rem;
+  }
+
+
 
 
 

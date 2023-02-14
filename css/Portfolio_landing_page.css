@@ -91,3 +91,46 @@ small{font-style: italic;}
    display: flex;
   justify-content: space-around;
  }
+
+ /* skills */
+
+ #SkillsSection{
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ }
+
+
+ #SkillsSection h2{
+  margin-left: 15px;
+border-bottom: 5px solid orange;
+
+ }
+
+ /* col margin */
+ .col{
+  margin-bottom: 35px;
+ }
+
+
+ /* skills img color's */
+
+ i.fa-html5{
+  color:orangered
+ }
+ i.fa-css3{
+  color:rgb(29, 4, 252)
+ }
+ i.fa-js{
+  color:rgb(255, 248, 51)
+ }
+ i.fa-react{
+  color:rgb(1, 241, 249)
+ }
+ i.fa-bootstrap{
+  color:#7e4288
+ }
+ i.fa-code{
+  color:rgb(5, 130, 254)
+ }
