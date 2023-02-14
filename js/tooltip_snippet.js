@@ -1,12 +1,17 @@
-const spanText = document.getElementById('tooltip');
+const spanText = document.querySelectorAll('#tooltip');
 
-window.onmouseover = function(e){
-   const x = e.clientX;
-   const y = e.clientY;
 
-   spanText.style.top = (y + 20) + 'px'
-   spanText.style.left = (x + 20) + 'px'
-}
+// spanText.forEach(tooltip => {
+   
+//    window.onmouseover = function(e){
+//       const x = e.clientX;
+//       const y = e.clientY;
+   
+//       tooltip.style.top = (y + 1) + 'rem'
+//       tooltip.style.left = (x + 1) + 'rem'
+//    }
+// })
+
 
 
 

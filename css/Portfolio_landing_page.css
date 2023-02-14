@@ -15,6 +15,8 @@ body{
 
 
 
+
+
 span.name::after {
    content: "";
    /* position: absolute; */
@@ -40,7 +42,7 @@ bottom: 0;
    margin: auto;
    width:0;
    color:#fff;
-   position:relative
+   /* position:relative */
    
 }
 /* download small italisize */

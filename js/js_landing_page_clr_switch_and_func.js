@@ -16,10 +16,12 @@ const nav_toggler_icon = document.querySelector('.navbar-toggler-icon');
 
 nav_toggler_icon.style.backgroundImage='url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png)'
 
-const tooltip = document.querySelector('#tooltip');
-tooltip.style.boxShadow='0 8px 10px red'
-tooltip.style.background = 'orangered';
-tooltip.style.color = '343a40';
+const tooltip = document.querySelectorAll('#tooltip');
+tooltip.forEach(ttipAll => {
+   ttipAll.style.boxShadow='0 8px 10px red'
+   ttipAll.style.background = 'orangered';
+   ttipAll.style.color = '343a40';
+   })
 
 // About me profile img
 const AbImg = document.querySelector('.fadeAbProfile');
@@ -41,11 +43,14 @@ lightDarkInput.addEventListener('click', function() {
       
       // end color dark for spacer
       // Execute code when the sun icon is being displayed
-      const tooltip = document.querySelector('#tooltip');
-      tooltip.style.boxShadow='0 8px 10px #343a40'
-tooltip.style.background = '#343a40';
-tooltip.style.color = '#fff';
-      document.body.className='light'
+     
+      document.body.className = 'light'
+      const tooltip = document.querySelectorAll('#tooltip');
+tooltip.forEach(ttipAll => {
+   ttipAll.style.boxShadow='0 8px 10px #343a40'
+ttipAll.style.background = '#343a40';
+ttipAll.style.color = '#fff';
+   })
       // main_nav_ttl.classList.add('text-dark');
 
       // change the nav when light background active
@@ -185,11 +190,15 @@ const downToggler = document.querySelector('.fa-chevron-down');
          link.style.setProperty('color', '#fff', 'important');
       })
       
-         const tooltip = document.querySelector('#tooltip');
-         tooltip.style.boxShadow='-4px 3px 1rem orange'
-      tooltip.style.background = 'rgb(213, 159, 0)';
-         tooltip.style.color = '#343a40';
+       
          
+      
+         const tooltip = document.querySelectorAll('#tooltip');
+         tooltip.forEach(ttipAll => {
+            ttipAll.style.boxShadow='-4px 3px 1rem orange'
+            ttipAll.style.background = 'rgb(213, 159, 0)';
+               ttipAll.style.color = '#343a40';
+            })
       
          const abTtl=document.querySelector('.fadeAbTtl')
       abTtl.style.color = '#fff' 

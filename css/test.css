@@ -1,23 +1,32 @@
 
 #tooltip {
-  position: fixed;
+  /* position: fixed; */
   display: block;
   opacity:0;
   visibility: hidden;
   background:#343a40;
  color:#fff;
+ margin:1rem;
  border-radius: .5rem;
  font-size:.7rem;
   font-weight: bold;
-  padding:5px;
+  padding:8px;
   
 
 
 }
 
+/* 2nd tooltip*/
+#aboutSection #tooltip{
+  position: relative;
+  bottom: 290px;
+}
+
 #wrapper:hover #tooltip{
   visibility: visible;
-  opacity: 1
+  opacity: 1;
+  width:80px;
+  text-align: center;
 }
 
 

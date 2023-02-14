@@ -99,6 +99,18 @@ span.name::after {
  
 }
 
+#aboutSection > p{
+  position: relative !important;
+}
+
+#aboutSection #wrapper .fa-chevron-down:before{
+  position: relative;
+ top: -290px !important;
+}
+
+
+
+
 
 .spacer{
    display: block !important;
@@ -126,7 +138,7 @@ span.name::after {
  
 
   .fadeInPara{padding:10px}
-  .fadeInPara p{font-family: 'Fuzzy Bubbles';}
+  .fadeInPara p{font-weight: 700;}
   
 
 
