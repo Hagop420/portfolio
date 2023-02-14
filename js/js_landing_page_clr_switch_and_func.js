@@ -21,6 +21,10 @@ tooltip.style.boxShadow='0 8px 10px red'
 tooltip.style.background = 'orangered';
 tooltip.style.color = '343a40';
 
+// About me profile img
+const AbImg = document.querySelector('.fadeAbProfile');
+AbImg.style.border = '1.3px solid #343a40';
+
 
 const lightDarkInput = document.querySelector('#light-dark');
 
@@ -107,8 +111,11 @@ tooltip.style.color = '#fff';
    
    const abTtl=document.querySelector('.fadeAbTtl')
    abTtl.style.color='#343a40'
-   abTtl.style.transition='none'
-  
+      abTtl.style.transition = 'none'
+      
+      
+      const AbImg = document.querySelector('.fadeAbProfile');
+      AbImg.style.setProperty('border', '1.3px solid #343a40', 'important');
    
 
    } else {
@@ -190,7 +197,9 @@ const downToggler = document.querySelector('.fa-chevron-down');
       // img in about
 
       const aboutMeProfileImg = document.querySelector('.fadeAbProfile');
-         
+
+      const AbImg = document.querySelector('.fadeAbProfile');
+      AbImg.style.setProperty('border', 'orange solid 1.3px', 'important');
    }
 
 

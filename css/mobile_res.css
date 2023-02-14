@@ -117,11 +117,16 @@ span.name::after {
   .fadeAbProfile {
     border-radius: .5rem;
     transition: none;
-    border: 1.3px solid #343a40 !important;
+    /* border: 1.3px solid #343a40 ; */
     object-fit: cover !important;
     height: 386.6px !important;
     padding: .3rem !important;
   }
+
+ 
+
+  .fadeInPara{padding:10px}
+  .fadeInPara p{font-family: 'Fuzzy Bubbles';}
   
 
 
