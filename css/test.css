@@ -1,7 +1,6 @@
 
 #tooltip {
-  /* position: fixed; */
-  display: block;
+ 
   opacity:0;
   visibility: hidden;
   background:#343a40;
@@ -17,16 +16,23 @@
 }
 
 /* 2nd tooltip*/
-#aboutSection #tooltip{
+/* #aboutSection #tooltip{
   position: relative;
-  bottom: 290px;
-}
+  bottom: 220px !important;
+} */
 
 #wrapper:hover #tooltip{
   visibility: visible;
   opacity: 1;
+  display: block !important;
   width:80px;
   text-align: center;
+}
+
+#aboutSection #wrapper:hover #tooltip{
+  position: relative;
+  bottom: 130px;
+
 }
 
 

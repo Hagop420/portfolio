@@ -32,8 +32,15 @@
 
 
  /* skills animate */
-
+/* animate the h2 */
  .skillsAnimate{
+  opacity:0;
+  transform: translateY(10px);
+  transition: .8s .5s all ease-in-out;
+ }
+
+ /* animate the grid col's */
+ .col{
   opacity:0;
   transform: translateY(10px);
   transition: .8s .5s all ease-in-out;

@@ -105,8 +105,13 @@ span.name::after {
 
 #aboutSection #wrapper .fa-chevron-down:before{
   position: relative;
- top: -290px !important;
+ bottom: 140px !important;
 }
+
+#aboutSection #wrapper:hover #tooltip{
+ position: relative !important;
+ top: -10px !important;
+ }
 
 
 
