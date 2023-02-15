@@ -100,18 +100,27 @@ span.name::after {
 }
 
 #aboutSection > p{
-  position: relative !important;
+  /* position: relative !important; */
+}
+
+#aboutSection #wrapper .fa-chevron-down{
+  position: relative;
+  bottom: 140px !important;
 }
 
 #aboutSection #wrapper .fa-chevron-down:before{
   position: relative;
  bottom: 140px !important;
+ display: block;
 }
 
 #aboutSection #wrapper:hover #tooltip{
- position: relative !important;
- top: -10px !important;
- }
+  position: relative;
+  top: -280px;
+
+}
+
+
 
 
 
