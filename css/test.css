@@ -1,12 +1,12 @@
 #tooltip {
- 
+  position: absolute;
   opacity:0;
   visibility: hidden;
   background:#343a40;
- color:#fff;
- margin:1rem;
- border-radius: .5rem;
- font-size:.7rem;
+  color:#fff;
+  margin:1rem;
+  border-radius: .5rem;
+  font-size:.7rem;
   font-weight: bold;
   padding:8px;
 
@@ -14,7 +14,7 @@
 }
 #aboutSection #tooltip{
   position: relative;
-  bottom: 500px;
+  bottom: 200px;
 }
 
 
@@ -23,9 +23,8 @@
 #wrapper:hover #tooltip{
   visibility: visible;
   opacity: 1;
-  width:80px;
+  /* display: block; */
   text-align: center;
-  display: block;
 }
 
 

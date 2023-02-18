@@ -180,13 +180,32 @@ span.name::after {
  
 }
 
-  }
-  .row{
-    display: flex !important;
-  }
+ /* links */
 
-  .col i{
-    font-size: 4.4rem;
+ a[target=_blank]{
+  margin: 20px;
+
+}
+ a[href='https://github.com/Hagop420']{
+ background-color: silver !important;
+ padding: 5px 15px;
+ border-radius: .5rem;
+
+}
+ a[href='https://www.linkedin.com/in/hagop-almadjian-607342240/']{
+ background-color: lightblue !important;
+ padding: 5px 15px;
+ border-radius: .5rem;
+
+}
+
+.row{
+  display: flex !important;
+}
+
+.col i{
+  font-size: 4.4rem;
+}
   }
 
 
